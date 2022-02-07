@@ -21,7 +21,8 @@ Automated API using Cucumber and Karate
 
 #### Example API Call with Cucumber
 
-  Background: 
+  ```
+    Background: 
     * url 'http://api.weatherstack.com'
     
   Scenario: Get Weather Amsterdam
@@ -31,3 +32,4 @@ Automated API using Cucumber and Karate
     When method GET
     Then status 200
     And print response
+  ```
