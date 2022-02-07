@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/examples/users/users.feature" skipped="0" tests="1" time="1.919883">
+  <testcase classname="src.test.java.examples.users.users" name="numan1" time="1.919883">
+    <system-out>* url 'http://api.weatherstack.com' ....................................... passed
+Given path '/current' ..................................................... passed
+And param access_key = '8096f96bc6a9d5e506efc2e04ac41855' ................. passed
+And param query = 'Amsterdam' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>
