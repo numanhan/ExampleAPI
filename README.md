@@ -2,19 +2,17 @@
 
 Automated API using Cucumber and Karate
 
-#### Setup
+- Clone this project : https://github.com/numanhan/ExampleAPI.git
+- Open with Idea
+- Wait until complete to Cucumber
 
+#### Setup
 - Java 
 - IDE(Intellij Idea)
 - Maven
 - Node
-- Clone this project
-- Open IDE
-- Open
-- Can run from TestRunner file manually
 
 #### About
-
 - I first tested the daily weather information of certain cities via the Weather API using Postman manually.Then I automated it using Cucmber and Karate. Cucumber allows us to write and run our scripts as BDD using the Gherkin structure.
 - Check : https://cucumber.io/docs/cucumber/
 
